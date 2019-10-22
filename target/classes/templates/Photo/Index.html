@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head th:replace="fragments :: head"></head>
+
+<body class="container bg-image">
+
+<div th:replace="fragments :: navigation"></div>
+<div class=" color-white container py-2">
+    <div class="row mx-2 justify-content-center">
+        <div class="text-center">
+            <h1> Here is a title</h1>
+            <img class="img-fluid w-50" src="Images/bg_image.webp"/>
+            <p mx-2> here is a bunch of text that really doesnt mean anything but it helps visualize what i'm trying to do.  I'll have to type a bunch so that I get an idea
+                of how this looks as we go through the website.</p>
+        </div>
+    </div>
+    <section class="row justify-content-center text-center mx-2">
+            <h1>Images</h1>
+        <div class="row">
+            <img class="img-fluid col" src="Images/bg_image.webp"/>
+            <img class="img-fluid col" src="Images/bg_image.webp"/>
+            <img class="img-fluid col" src="Images/bg_image.webp"/>
+        </div>
+    </div>
+</div>
+</body>
+</html>

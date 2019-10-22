@@ -1,0 +1,10 @@
+.bg-image{
+  background-image: url(Images/stephen-frank-1nls6y6XZJ4-unsplash.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.color-white {
+background-color: rgba(255,255,255,.8)}
